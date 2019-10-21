@@ -19,9 +19,7 @@ public class YatzyEvaluator {
         return true; //TODO, returnera rätt, försök få till den snygga, kompakta variaten
     }
     public static boolean isFourOfAKind(int[] roll){
-        for (int result : roll){
-            
-        }
+        
         return true; //TODO, returnera rätt, försök få till den snygga, kompakta variaten
     }
     public static boolean isThreeOfAKind(int[] roll){

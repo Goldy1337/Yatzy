@@ -41,11 +41,11 @@ public class YatzyEvaluatorTest {
     @Test
     public void isFourOfAKind() {
         int[] roll = {1, 2, 3, 4, 5};
-        boolean result = YatzyEvaluator.isYatzy(roll);
+        boolean result = YatzyEvaluator.isFourOfAKind(roll);
         assertFalse(result);
 
         int[] roll2 = {1, 3, 3, 3, 3};
-        result = YatzyEvaluator.isYatzy(roll2);
+        result = YatzyEvaluator.isFourOfAKind(roll2);
         assertTrue(result);
     }
 
